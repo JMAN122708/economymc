@@ -1,0 +1,94 @@
+{
+  "mod_elements": [
+    {
+      "name": "Silvercoin",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silvercoin"
+    },
+    {
+      "name": "Goldcoin",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldcoin"
+    },
+    {
+      "name": "Coppercoin",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppercoin"
+    },
+    {
+      "name": "Eventcoin",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eventcoin"
+    },
+    {
+      "name": "Collector",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "collector"
+    },
+    {
+      "name": "Economy",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "economy"
+    },
+    {
+      "name": "Coins",
+      "type": "villagertrade",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coins"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabeconomy": "Economy",
+      "block.economics.collector": "Collector",
+      "item.economics.eventcoin": "Event Coin",
+      "item.economics.goldcoin": "Gold Coin",
+      "item.economics.coppercoin": "Copper Coin",
+      "item.economics.silvercoin": "Silver Coin"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "economics",
+    "modName": "economics",
+    "version": "1.0.0",
+    "author": "jwbyr, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.economics",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
